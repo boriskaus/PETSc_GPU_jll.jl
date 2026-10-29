@@ -18,7 +18,7 @@ The tarballs for `PETSc_GPU_jll.jl` have been built from these sources:
 
 `PETSc_GPU_jll.jl` is available for the following platforms:
 
-* `Platform("x86_64", "linux"; cxxstring_abi = "cxx11", libc = "glibc", cuda = "13.4", mpi = "mpitrampoline", libgfortran_version = "5.0.0")` (`x86_64-linux-gnu-libgfortran5-cxx11-cuda+13.4-mpi+mpitrampoline`)
+* `Platform("x86_64", "linux"; cxxstring_abi = "cxx11", libc = "glibc", cuda = "12.0", mpi = "mpich", libgfortran_version = "5.0.0")` (`x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.0-mpi+mpich`)
 
 ## Dependencies
 
