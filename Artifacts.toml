@@ -54,3 +54,17 @@ os = "linux"
     [[PETSc_GPU.download]]
     sha256 = "2c027914ee15151d6eca81c201aa66fc09755e3e7e8200f1e16bb42c37efc19f"
     url = "https://github.com/boriskaus/PETSc_GPU_jll.jl/releases/download/PETSc_GPU-v3.25.6+0/PETSc_GPU.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.6-mpi+mpiabi.tar.gz"
+[[PETSc_GPU]]
+arch = "x86_64"
+cuda = "13.4"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "318dafcc0d9160604496a213941e79558aa32392"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[PETSc_GPU.download]]
+    sha256 = "177d5d4b6c45fdb4b35f9bd617c7cb4c798be9ee104e426329c8367897877af1"
+    url = "https://github.com/boriskaus/PETSc_GPU_jll.jl/releases/download/PETSc_GPU-v3.25.6+0/PETSc_GPU.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+13.4-mpi+mpitrampoline.tar.gz"
